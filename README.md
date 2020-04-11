@@ -1,7 +1,5 @@
 # Arduino-serial
-A guide on establishing a Serial Connection with an Arduino Uno Microcontroller, programming
-an arduino to wait for incoming signals from the serial connection. Then, programming a GUI using Flask
-to blink the inner LED of the Arduino. 
+A guide on sending signals to an Arduino Uno to make the inner LED go and OFF using Flask GUI
 
 First, we need to program the Arduino. In this project, we used an Elegoo Uno R3 which acts as an Arduino Uno.
 We use the Arduino IDE to then program the Arduino. The Arduino code can be seen in the keyinputc.ino file.
