@@ -8,7 +8,7 @@ We then verify and upload the code into the Arduino.
 Secondly, we establish the serial connection with the Arduino using Python. In order to do so, we
 install the pySerial library in Python. This can be installed from PyPI using the "python -m pip install pyserial" command.
 Please visit https://pyserial.readthedocs.io/en/latest/ for more information on pySerial. Once this is done,
-we can import serial and test out the serial connection using Python. Essentially we encode a triggering value
+we can import serial in Python and test out the serial connection. Essentially we encode a triggering value
 into the arduino using the write function imported from the serial library to make the inner LED blink according 
 to the arduino code. In our case, we use the value c to trigger a high voltage through pin 13 where the inner LED of
 the Arduino is located. If that works, we're on right track to build the flask GUI. 
@@ -22,3 +22,5 @@ View attached "prac.py" for more information.
 
 Finally, we are finally good to go! Run the Python code and we can finally send signals to the arduino 
 using a flask GUI to make the inner LED go on and off.
+
+Have fun!
