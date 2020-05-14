@@ -20,7 +20,7 @@ we used submit buttons. Please view attached "main.html" file for more informati
 Subsequentently, we can connect this template with Flask by importing Flask, render_template and request in our python code.
 View attached "prac.py" for more information.
 
-Finally, we are finally good to go! Run the Python code and we can finally send signals to the arduino 
+Finally, we are good to go! Run the Python code and we can finally send signals to the arduino 
 using a flask GUI to make the inner LED go on and off.
 
 Have fun!
