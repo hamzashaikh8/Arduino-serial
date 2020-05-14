@@ -1,8 +1,8 @@
 # Arduino-serial
-A guide on sending signals to an Arduino Uno to make the inner LED go and OFF using Flask GUI
+A guide on sending signals to an Arduino Uno to toggle the inner LED by creating Flask GUI
 
 First, we need to program the Arduino. In this project, we used an Elegoo Uno R3 which acts as an Arduino Uno.
-We use the Arduino IDE to then program the Arduino. The Arduino code can be seen in the keyinputc.ino file.
+We use the Arduino IDE to then program onto it. The Arduino code can be seen in the keyinputc.ino file.
 We then verify and upload the code into the Arduino.
 
 Secondly, we establish the serial connection with the Arduino using Python. In order to do so, we
